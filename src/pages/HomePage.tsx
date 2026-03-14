@@ -107,22 +107,22 @@ const ProductsSection: React.FC = () => {
     {
       title: 'Pleno Audit',
       description: 'Personal Browser Security',
-      githubUrl: 'https://github.com/HikaruEgashira/pleno-audit',
-      websiteUrl: 'https://hikaruegashira.github.io/pleno-audit/',
+      githubUrl: 'https://github.com/plenoai/pleno-audit',
+      websiteUrl: 'https://plenoai.com/pleno-audit/',
       icon: <FileSearch className="w-5 h-5 text-zinc-100" />,
     },
     {
       title: 'Pleno Anonymize',
       description: 'PII Filter Backend Service',
-      githubUrl: 'https://github.com/HikaruEgashira/pleno-anonymize',
-      websiteUrl: 'https://hikaruegashira.github.io/pleno-anonymize/',
+      githubUrl: 'https://github.com/plenoai/pleno-anonymize',
+      websiteUrl: 'https://plenoai.com/pleno-anonymize/',
       icon: <Shield className="w-5 h-5 text-zinc-100" />,
     },
     {
       title: 'Pleno Live',
       description: 'OSS Plaud Note Pro Alternative',
-      githubUrl: 'https://github.com/HikaruEgashira/pleno-live',
-      websiteUrl: 'https://hikaruegashira.github.io/pleno-live/',
+      githubUrl: 'https://github.com/plenoai/pleno-live',
+      websiteUrl: 'https://plenoai.com/pleno-live/',
       icon: <Mic className="w-5 h-5 text-zinc-100" />,
     },
   ];
@@ -153,9 +153,9 @@ const ProductsSection: React.FC = () => {
 
 const Footer: React.FC = () => {
   const products = [
-    { name: 'Anonymize', privacyUrl: 'https://hikaruegashira.github.io/pleno-anonymize/privacy', termsUrl: 'https://hikaruegashira.github.io/pleno-anonymize/terms' },
-    { name: 'Audit', privacyUrl: 'https://hikaruegashira.github.io/pleno-audit/privacy', termsUrl: 'https://hikaruegashira.github.io/pleno-audit/terms' },
-    { name: 'Live', privacyUrl: 'https://hikaruegashira.github.io/pleno-live/privacy', termsUrl: 'https://hikaruegashira.github.io/pleno-live/terms' },
+    { name: 'Anonymize', privacyUrl: 'https://plenoai.com/pleno-anonymize/privacy', termsUrl: 'https://plenoai.com/pleno-anonymize/terms' },
+    { name: 'Audit', privacyUrl: 'https://plenoai.com/pleno-audit/privacy', termsUrl: 'https://plenoai.com/pleno-audit/terms' },
+    { name: 'Live', privacyUrl: 'https://plenoai.com/pleno-live/privacy', termsUrl: 'https://plenoai.com/pleno-live/terms' },
   ];
 
   return (
@@ -212,7 +212,7 @@ const Footer: React.FC = () => {
 
           <div className="flex md:justify-end items-start gap-4">
             <a
-              href="https://github.com/HikaruEgashira"
+              href="https://github.com/plenoai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-zinc-100 transition-colors duration-200"
